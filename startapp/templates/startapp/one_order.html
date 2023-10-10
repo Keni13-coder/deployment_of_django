@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block body %}
+{{user_id}}
+<table>
+    <thead>
+        <tr>
+        <th>Username</th>
+        <th>Totol cost</th>
+        <th>Date</th>
+        <th>Products in 7 days</th>
+        <th>Products in 30 days</th>
+        <th>Products in 365 days</th>
+        
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>{{ order.user.name }}</td>
+        <td>{{ order.total_cost }}</td>
+        <td>{{ order.date_create_order }}</td>
+        <td>
+            {% for prod in prods7 %}
+            {{prod.title}}
+            {% endfor %}
+        </td>
+        <td>
+            {% for prod in prods30 %}
+            {{prod.title}}
+            {% endfor %}
+        </td>
+        <td>
+            {% for prod in prods365 %}
+            {{prod.title}}
+            {% endfor %}
+        </td>
+    </tr>
+</tbody>
+</table>
+{% endblock %}
