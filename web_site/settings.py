@@ -28,7 +28,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'name.pythonanywhere.com',
+    'keni.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
