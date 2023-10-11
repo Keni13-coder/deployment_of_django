@@ -11,3 +11,12 @@
 Ссылки которые помогут понять работу точек
 * https://github.com/Keni13-coder/deployment_of_django/blob/main/startapp/utils.py
 * https://github.com/Keni13-coder/deployment_of_django/blob/main/startapp/views.py
+
+
+Admin:
+
+url = https://keni.pythonanywhere.com/admin/login/?next=/admin/
+
+    username = Testuser
+  
+    password = SrCnvsW2!84MEWe
