@@ -1,4 +1,4 @@
-# Маршруты которые не как не помогут )
+# Маршруты которые никак не помогут )
 ### Методы (method) - подрузомиваеться `get`, `post`, `delete`.
 * https://keni.pythonanywhere.com/user_point/<`method`>/
 * https://keni.pythonanywhere.com/prod_point/<`method`>/
